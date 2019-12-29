@@ -4,11 +4,11 @@ resource "aws_default_vpc" "default" {
         Name="Deafult VPC"
     }
     
-}
+}*/
+/*
 resource "aws_security_group" "mysg" {
     name ="Grant ssh"
     description ="Allow SSH inbound traffic"
-    vpc_id="${aws_default_vpc.default.id}"
     tags ={
         Name="Secgroup by tf"
     }
